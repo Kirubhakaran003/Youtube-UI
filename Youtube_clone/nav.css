@@ -1,0 +1,28 @@
+.sidebar_container{
+    position: fixed;
+    top:80px;
+    bottom:0;
+    left:0;
+    border-right: 1px solid lightgray;
+    background-color: rgb(255, 246, 246);
+    z-index: 200;
+}
+.nav_link{
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_link:hover{
+    cursor: pointer;
+    background-color: rgb(199, 198, 198);
+    transition:0.15s;
+
+}
+.nav_link img{
+    height: 30px;
+    padding: 30px 30px 7px 30px;
+}
+
+
